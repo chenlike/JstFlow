@@ -172,7 +172,7 @@ namespace Flow.Core
                 yield break;
 
             var result = signal.MethodInfo.Invoke(instance, null);
-
+            
             switch (result)
             {
                 case FlowOutEvent e:

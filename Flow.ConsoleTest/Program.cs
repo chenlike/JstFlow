@@ -51,7 +51,7 @@ namespace Flow.ConsoleTest
             int step = 0;
             while (executor.StepNext())
             {
-                Console.WriteLine($"[{step}]---------");
+                //Console.WriteLine($"[{step}]---------");
 
                 step++;
             }
